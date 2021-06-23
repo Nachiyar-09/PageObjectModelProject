@@ -1,0 +1,14 @@
+//object not created when methods are declared as static(without page Factory)
+										
+										
+GuruLoginPage.setUsername(driver).sendKeys("mngr334527");
+GuruLoginPage.Setpassword(driver).sendKeys("YdEraqY");
+GuruLoginPage.LoginClick(driver).click()
+
+
+//Object created without making methods as static
+	
+GuruLoginPage loginObj = new GuruLoginPage();
+loginObj.setUsername(driver).sendKeys("mngr334527");
+loginObj.Setpassword(driver).sendKeys("YdEraqY");
+loginObj.LoginClick(driver).click();*/
